@@ -16,6 +16,14 @@ createServer({
           type: 'deposit',
           category: 'food',
           createdAt: new Date(),
+        },
+        {
+          id: 1,
+          title: 'Transaction 2',
+          amount: 200,
+          type: 'deposit',
+          category: 'withdraw',
+          createdAt: new Date(),
         }
       ]
     });
